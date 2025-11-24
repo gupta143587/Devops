@@ -75,11 +75,11 @@
         cloud: [aws, azure, google]
   ...
 
----
-  #Trainer's Data
-  learners:
-    learner1:
-      name: Yogesh Gupta
-      age: 22
-      email: gupta@gmail.com
-...
+  ---
+    #Trainer's Data
+    learners:
+      learner1:
+        name: Yogesh Gupta
+        age: 22
+        email: gupta@gmail.com
+  ...
