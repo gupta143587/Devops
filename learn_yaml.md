@@ -73,6 +73,7 @@
           - Github
           - linux
         cloud: [aws, azure, google]
+  ...
 
 ---
   #Trainer's Data
