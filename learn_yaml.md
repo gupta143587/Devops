@@ -36,6 +36,7 @@
 # Types of Strings
 ## 1. Normal String
 - Ex:
-    ---
-      jobDescription: "I am B Gupta Completed my Btech in **NSRIT** College. I am B Gupta Completed my Inter in **Narayana** College. I am B Gupta Completed my School in **Ravindra Bharathi** School."
     ...
+      jobDescription: "I am B Gupta Completed my Btech in **NSRIT** College. I am B Gupta Completed my Inter in **Narayana** College. I am B Gupta Completed my School in **Ravindra Bharathi** School."
+      output: I am B Gupta Completed my Btech in **NSRIT** College. I am B Gupta Completed my Inter in **Narayana** College. I am B Gupta Completed my School in **Ravindra Bharathi** School.
+    ---
