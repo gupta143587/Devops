@@ -14,3 +14,6 @@
     - Ex: 23, 23.5
 - Boolean: The Value Can **True** or **False**
     - Ex: is_student: true/false
+- Strings: Texts Enclosed in **Single** or **Double** Qutoes
+    - Ex:
+        - email: "gupta@gmail.com"
