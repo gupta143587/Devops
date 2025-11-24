@@ -38,5 +38,38 @@
 - Ex:
     ---
       jobDescription: "I am B Gupta Completed my Btech in **NSRIT** College. I am B Gupta Completed my Inter in **Narayana** College. I am B Gupta Completed my School in **Ravindra Bharathi** School."
-      output: I am B Gupta Completed my Btech in **NSRIT** College. I am B Gupta Completed my Inter in **Narayana** College. I am B Gupta Completed my School in **Ravindra Bharathi** School.
+      output: 
+        I am B Gupta Completed my Btech in **NSRIT** College. I am B Gupta Completed my Inter in **Narayana** College. I am B Gupta Completed my School in **Ravindra Bharathi** School.
     ...
+
+-------------
+# YAML Example
+#Learners Data
+---
+  learners:
+    learner1:
+      name: Gupta
+      age: 22
+      email: gupta@gmail.com
+      isCourseCompleted: False
+      stipend: 30.0
+      isEmployed: null
+      course_enrolled:
+        - aws
+        - devops
+        - azure
+    learner2:
+      name: Yogesh
+      age: 22
+      email: yogesh@gmail.com
+      isCourseCompleted: True
+      stipend: 80.0
+      isEmployed: null
+      course_enrolled:
+        devops:
+          - docker
+          - k8s
+          - Github
+          - linux
+        cloud: [aws, azure, google]
+...
