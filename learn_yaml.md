@@ -21,10 +21,10 @@
 
 ## 2. Sequence/Array Data Type
 - Ex:
-    ...yml
+    ---
     fruits:
       - apple
       - cherry
       - berry
     fruit: [apple, mango, grapes]
-    ---
+    ...
