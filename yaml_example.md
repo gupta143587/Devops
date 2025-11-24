@@ -3,10 +3,10 @@
     is_course_completed: true
     is_internship_completed: false 
 
----
-  person:
-    name: Gupta
-    age: 22
+  ---
+    person:
+      name: Gupta
+      age: 22
 
   ---
     person:
@@ -15,3 +15,19 @@
       address:
         city: Vizag
         country: India
+  
+  ---
+    fruits:
+      - Apple
+      - Mango
+      - Grapes
+      - Orange
+      - Watermelon
+      - Custard Apple
+    vegetables:
+      - Onion
+      - Potato
+      - Carrot
+      - Lemon
+      - Brinjal
+      - Cucumber
