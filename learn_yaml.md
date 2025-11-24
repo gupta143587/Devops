@@ -45,30 +45,31 @@
 -------------
 # YAML Example
 #Learners Data
-  learners:
-    learner1:
-      name: Gupta
-      age: 22
-      email: gupta@gmail.com
-      isCourseCompleted: False
-      stipend: 30.0
-      isEmployed: null
-      course_enrolled:
-        - aws
-        - devops
-        - azure
-    learner2:
-      name: Yogesh
-      age: 22
-      email: yogesh@gmail.com
-      isCourseCompleted: True
-      stipend: 80.0
-      isEmployed: null
-      course_enrolled:
-        devops:
-          - docker
-          - k8s
-          - Github
-          - linux
-        cloud: [aws, azure, google]
-  ---   
+  ...
+    learners:
+      learner1:
+        name: Gupta
+        age: 22
+        email: gupta@gmail.com
+        isCourseCompleted: False
+        stipend: 30.0
+        isEmployed: null
+        course_enrolled:
+          - aws
+          - devops
+          - azure
+      learner2:
+        name: Yogesh
+        age: 22
+        email: yogesh@gmail.com
+        isCourseCompleted: True
+        stipend: 80.0
+        isEmployed: null
+        course_enrolled:
+          devops:
+            - docker
+            - k8s
+            - Github
+            - linux
+          cloud: [aws, azure, google]
+  ---
