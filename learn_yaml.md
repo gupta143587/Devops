@@ -45,7 +45,6 @@
 -------------
 # YAML Example
 #Learners Data
-  ---
   learners:
     learner1:
       name: Gupta
@@ -72,4 +71,4 @@
           - Github
           - linux
         cloud: [aws, azure, google]
-  ...
+  ---   
