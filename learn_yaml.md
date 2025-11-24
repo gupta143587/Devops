@@ -7,3 +7,8 @@
      ---
      config-2
    ```
+
+# YAML Data Types
+## 1 . Scalar Data Types
+- Numbers: It Can be **Integer** and **Floating** values
+    - Ex: 23, 23.5
