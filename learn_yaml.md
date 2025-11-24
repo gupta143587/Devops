@@ -27,7 +27,7 @@
         - cherry
         - berry
       fruit: [apple, mango, grapes]
-    ...
+    
 
 ## 3. Mapping/Dictionary Data Type
 - Ex: name: Gupta
@@ -40,7 +40,7 @@
       jobDescription: "I am B Gupta Completed my Btech in **NSRIT** College. I am B Gupta Completed my Inter in **Narayana** College. I am B Gupta Completed my School in **Ravindra Bharathi** School."
       output: 
         I am B Gupta Completed my Btech in **NSRIT** College. I am B Gupta Completed my Inter in **Narayana** College. I am B Gupta Completed my School in **Ravindra Bharathi** School.
-    ...
+    
 
 -------------
 # YAML Example
@@ -73,7 +73,7 @@
           - Github
           - linux
         cloud: [aws, azure, google]
-  ...
+  
 
   ---
     #Trainer's Data
