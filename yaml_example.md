@@ -8,10 +8,10 @@
     name: Gupta
     age: 22
 
----
-  person:
-    name: Yogesh Gupta
-    age: 22
-    address:
-      city: Vizag
-      country: India
+  ---
+    person:
+      name: Yogesh Gupta
+      age: 22
+      address:
+        city: Vizag
+        country: India
