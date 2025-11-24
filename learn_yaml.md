@@ -22,9 +22,9 @@
 ## 2. Sequence/Array Data Type
 - Ex:
     ---
-    fruits:
-      - apple
-      - cherry
-      - berry
-    fruit: [apple, mango, grapes]
+      fruits:
+        - apple
+        - cherry
+        - berry
+      fruit: [apple, mango, grapes]
     ...
