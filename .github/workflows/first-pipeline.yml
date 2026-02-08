@@ -1,0 +1,14 @@
+name: First Workflow
+on: push  #trigger-> used to on which event you must to run this version
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clone code
+        run: echo "Cloning is Done"
+      - name: Install Build tools
+        run: echo "Build tool is Installed"
+      - name: build the app 
+        run: echo "Build is Done"
+        
+  
