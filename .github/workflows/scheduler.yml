@@ -1,0 +1,14 @@
+name: Scheduled Run
+
+on:
+  schedule:
+    - cron: '30 8 * * *'
+    - cron: '40 8 * * *'
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: DB Backup
+        run: echo "DB Backup Done"
