@@ -1,0 +1,12 @@
+name: Onpush to Main
+on:
+  push:       #trigger on specific branch
+    branches:
+      - main
+      - dev
+jobs:
+  myjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo "triggered pipeline on commit to main-branch"
