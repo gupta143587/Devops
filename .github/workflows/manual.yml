@@ -1,0 +1,8 @@
+name: Manual Trigger
+on: workflow_dispatch
+jobs:
+  MyJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing manual Trigger
+        run: echo "Tetsing manual Triggered"
