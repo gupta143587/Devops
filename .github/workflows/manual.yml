@@ -1,5 +1,7 @@
 name: Manual Trigger
-on: workflow_dispatch
+on:
+ push:
+ workflow_dispatch
 jobs:
   MyJob:
     runs-on: ubuntu-latest
