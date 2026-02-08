@@ -1,0 +1,8 @@
+name: on Pull Request
+on: pull_request
+jobs:
+  myJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo "on pull request"
